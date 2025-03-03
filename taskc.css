@@ -1,0 +1,56 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Full-screen background */
+body, html {
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+/* Container for background and content */
+.container {
+    background-image: url('https://thumbs.dreamstime.com/b/chinnaswamy-stadium-bangalore-m-chinnaswamy-stadium-located-bengaluru-karnataka-stadium-owned-government-138091917.jpg'); /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Content styling */
+.content {
+    text-align: center;
+    color: white;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5); /* Dark overlay to make text readable */
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    background-color: #ff9900;
+    padding: 15px 30px;
+    font-size: 1.5em;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #e68a00;
+}
